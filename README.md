@@ -21,7 +21,7 @@ This project demonstrates writer identification using two different deep learnin
 
 **Siamese_Net.ipynb Specifics:**
 
-*   **Model Architecture:** Implements a convolutional neural network (CNN) designed for writer identification. While named "Siamese_Net", the provided notebook trains this network as a direct classifier for writer identification among the top 10 writers. The architecture consists of several convolutional, batch normalization, max-pooling, and dense layers.
+*   **Model Architecture:** Utilizes a pre-trained ResNet50 model as a feature extractor. The base ResNet50 model (with weights pre-trained on ImageNet) is followed by custom classification layers (GlobalAveragePooling2D, Dense layers) to adapt it for the writer pairing task.
 *   **Image Input Size:** Processes images resized to 128x128 pixels.
 *   **Training:** The model is trained to classify handwriting samples into one of the top 10 writer categories.
 
