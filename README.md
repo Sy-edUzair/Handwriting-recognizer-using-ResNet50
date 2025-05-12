@@ -1,4 +1,4 @@
-Handwriting Writer Recognizer and Identification using Deep Learning
+# Handwriting Writer Recognizer and Identification using Deep Learning
 
 This project explores the use of deep learning models for writer identification based on handwritten text samples. It includes implementations of a Siamese Network and a ResNet50-based classifier to distinguish between different writers using the IAM Handwriting Database.
 
